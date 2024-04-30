@@ -1,0 +1,204 @@
+    1  clear
+    2  pwd
+    3  cd ..
+    4  ls-l
+    5  ls -l
+    6  cd ..ls -l
+    7  pwd
+    8  cd /c/Users/User/Documents/
+    9  pwd
+   10  ls
+   11  cd ../Postman
+   12  pwd
+   13  ls
+   14  .. /Documents
+   15  cd ../Documents
+   16  ls
+   17  ls -l
+   18  whoami
+   19  ls -a
+   20  ls -la
+   21  file file.txt
+   22  touch file.txt
+   23  ls -l
+   24  mkdir test_folder_goit
+   25  cd test_folder_goit/
+   26  clear
+   27  pwd
+   28  ls -l
+   29  cp ../file.txt
+   30  cp help
+   31  cp -help
+   32  cp --help
+   33  cp -b ../file.txt
+   34  clear
+   35  cp ../file.txt
+   36  psd
+   37  wpd
+   38  pwd
+   39  cp /c/Users/User/Documents/File.txt
+   40  cp /c/Users/User/Documents/file.txt
+   41  cd ../
+   42  vim file.txt
+   43  cp file.txt test_folder_goit/
+   44  pwd
+   45  cd c/Users/User/Documents/test_folder_goit
+   46  cd ../Documents/test_folder_goit/
+   47  nano file.txt
+   48  vim file.txt 
+   49  vim text.txt
+   50  head test.txt
+   51  head file.txt
+   52  tail text.txt
+   53  cat text.txt
+   54  clear
+   55  vim text.txt
+   56  cat text.txt | grep500
+   57  cat text.txt | grep 500
+   58  cat text.txt | grep 5
+   59  df -h
+   60  systeminfo
+   61  systemprofile
+   62  clear
+   63  ls -l
+   64  mv text.txt ../
+   65  ls -l
+   66  cd ../
+   67  ls -l
+   68  mw text.txt /c/Users/User/Documents/test_folder_goit/
+   69  mw text.txt c/Users/User/Documents/test_folder_goit/
+   70  mw text.txt /test_folder_goit/
+   71  rm text.txt
+   72  ls -l
+   73  rm -r test_folder_goit/
+   74  ls -l
+   75  rm file.txt
+   76  mkdir git_goit
+   77  cd git_goit/
+   78  ls
+   79  ls -l
+   80  git config --global user.name mykolatsekhmistrenko
+   81  git config --global user.name mykolatsekhmistrenko
+   82  git config --get user.name mykolatsekhmistrenko
+   83  git config --global user.email m.v.tsekhmistrenko@gmail.com
+   84  git config --get user.email m.v.tsekhmistrenko@gmail.com
+   85  git clone 
+   86  git clone https://github.com/mykolatsekhmistrenko/repo_test.git
+   87  ls -l
+   88  cd /repo_test
+   89  cd repo_test
+   90  ls -l
+   91  ls -la
+   92  git status 
+   93  git loggit log
+   94  git log
+   95  clear
+   96  git checkout -b REpo_test
+   97  git branch 
+   98  git status 
+   99  touch new_file.txt
+  100  git status
+  101  vim new_file.txt 
+  102  gi add.
+  103  gi add .
+  104  gid add .
+  105  git add .
+  106  git commit -m "added new file"
+  107  git status
+  108  git log
+  109  git checkout main
+  110  git status
+  111  git log
+  112  git checkout REpo_test 
+  113  git log
+  114  git push origin REpo_test 
+  115  clear
+  116  git checkout main 
+  117  git merge REpo_test 
+  118  git status 
+  119  git log
+  120  git push origin main 
+  121  git config --name -email
+  122  git config --global user email m.v.tsekhmistrenko@gmail.com
+  123  git config --global user.email m.v.tsekhmistrenko@gmail.com
+  124  git config --get user.email
+  125  ls -la
+  126  vim .gitignore
+  127  touch test_ignore.txt
+  128  vim .gitignore
+  129  git status 
+  130  cd /c/Users/User/Documents/
+  131  git log
+  132  git clone https://github.com/mykolatsekhmistrenko/HW_10.git
+  133  git checkout HW_10/_10
+  134  git checkout HW_10
+  135  cd HW_10/
+  136  touch text_ignore.txt
+  137  vim .gitignore 
+  138  git status
+  139  git add .
+  140  git commit 
+  141  touch main_test.txt
+  142  git add .
+  143  git commit
+  144  git checkout -b develop
+  145  git status
+  146  git add 
+  147  git add .
+  148  git commit -m "added branch"
+  149  vim develop.txt
+  150  git status
+  151  git add .
+  152  git commit -m "change"
+  153  git checkout main
+  154  git log
+  155  git checkout develop
+  156  git log
+  157  git status
+  158  git checkout main
+  159  git status
+  160  git add.
+  161  git add .
+  162  git status
+  163  git checkout develop
+  164  git status
+  165  git checkout main
+  166  git log
+  167  git checkout develop
+  168  git log
+  169  git checkout main
+  170  git merge develop 
+  171  git log
+  172  history > command_list.csv
+  173  clear
+  174  cd ../
+  175  mkdir go_it
+  176  cg go_it
+  177  cd go_it
+  178  ls -l
+  179  git config --global user.name mykolatsekhmistrenko
+  180  git config --get user.name
+  181  git config --global user.email m.v.tsekhmistrenko@gmail.com
+  182  git config --get user.email
+  183  git clone https://github.com/mykolatsekhmistrenko/HW_10.git
+  184  cd HW_10
+  185  touch text_ignore.txt
+  186  vim .gitignore 
+  187  git status
+  188  git add .
+  189  git commit -m "new file"
+  190  touch main_test.txt
+  191  git add .
+  192  git commit -m "new main file"
+  193  git checkout -b develop
+  194  touch develop_test.txt
+  195  git add .
+  196  git commit -m "new develop file"
+  197  vim develop_test.txt 
+  198  git status
+  199  git add .
+  200  git commit -m "new change"
+  201  git checkout main
+  202  git merge develop 
+  203  git log
+  204  history > command_list.csv
